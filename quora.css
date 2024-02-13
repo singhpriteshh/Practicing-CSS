@@ -41,3 +41,15 @@ nav ul li a{
 p+h3{
     text-decoration: underline;
 }
+
+div>input{
+    background-color: whitesmoke;
+}
+
+input[type="text"]{
+    color: red;
+}
+
+input[type="password"]{
+    color: green;
+}
