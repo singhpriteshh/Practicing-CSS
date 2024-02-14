@@ -37,3 +37,8 @@ textarea{
     color: black;
 }
 
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
