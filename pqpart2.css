@@ -1,0 +1,39 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#mainTopic{
+    color: blue;
+}
+
+#maintopic h3 h5{
+    font-family: Georgia;
+}
+
+.content{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div>button{
+    color: azure;
+    background-color: purple;
+}
+
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+.content:nth-of-type(2n){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+#yes:checked + label{
+    color: darkgreen;
+}

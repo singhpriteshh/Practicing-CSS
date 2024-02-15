@@ -1,5 +1,5 @@
 *{
-    font-family: 'Courier New';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 
@@ -72,4 +72,23 @@ input[type="radio"]:checked + label{
     color: red;
     font-weight: bold;
 
+}
+
+div:nth-of-type(2){
+    background-color: gray;
+    font-weight: bold;
+
+}
+
+h1::first-letter{
+    color: orange;
+}
+
+p::first-line{
+    color: purple;
+
+}
+
+p::selection{
+    background-color: limegreen;
 }
