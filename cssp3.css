@@ -1,34 +1,20 @@
-
-.box{
-    height: 200px;
-    width: 70px;
-    border: 2px solid black;
+#box{
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
 }
 
-.div1{
-    height: 50px;
-    width: 50px;
-    border: 2px solid black;
-    background-color: red;
+div{
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
-    margin: 10px;
-
-}
-
-.div2{
-    height: 50px;
-    width: 50px;
     border: 2px solid black;
-    background-color: yellow;
-    border-radius: 50%;
-    margin: 10px;
-}
-
-.div3{
-    height: 50px;
-    width: 50px;
-    border: 2px solid black;
-    background-color: green;
-    border-radius: 50%;
-    margin: 10px;
+    display: inline-block;
+    background-color: greenyellow;
 }
