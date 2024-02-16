@@ -1,0 +1,48 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    transition: 2s;
+}
+
+.smile{
+    height: 170px;
+    width: 170px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+
+.eye{
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    margin: 10px;
+}
+
+.mouth{
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    position: relative;
+    top: 50px;
+    left: 55px;
+    border-radius: 0 0 0 0;
+    transition: 1s;
+}
+
+.mouth:hover{
+    border-radius: 0 0 20px 20px;
+}
+
+.box:hover{
+    margin: 500px;
+}
