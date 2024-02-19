@@ -37,7 +37,7 @@
     text-align: center;
 }
 
-.animation{
+/* .animation{
     height: 100px;
     width: 300px;
     background-color: pink;
@@ -47,9 +47,9 @@
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-}
+} */
 
-@keyframes fontanimation{
+/* @keyframes fontanimation{
     /* from{font-size: 20px;
         background-color: green;}
     to{font-size: 50px;
@@ -65,6 +65,41 @@
         }
         100%{
             font-size: 50px;
+            background-color: red;
+        }
+} */
+
+
+
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    animation-name: fontanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes fontanimation{
+    /* from{font-size: 20px;
+        background-color: green;}
+    to{font-size: 50px;
+        background-color: blue;} */
+
+        0%{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: green;
+        }
+        50%{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: yellow;
+        }
+        100%{
+            font-family: Georgia, 'Times New Roman', Times, serif;
             background-color: red;
         }
 }
